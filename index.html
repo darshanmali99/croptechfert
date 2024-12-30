@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Growing Future, Nurturing Earth</h1>
+      <p class="lead">Leading solutions for a sustainable tomorrow</p>
+      <a href="#products" class="btn btn-success btn-lg mt-3">Explore Our Products</a>
+    </div>
+  </section>
+
+  <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <!-- Card 1 -->
+      <div class="carousel-item active">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="assets/fertilizer1.jpg" class="card-img-top" alt="Fertilizer 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Organic Fertilizer</h5>
+            <p class="card-text">A natural fertilizer enriched with nutrients for sustainable farming.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="carousel-item">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="assets/fertilizer1.jpg" class="card-img-top" alt="Fertilizer 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nitrogen Booster</h5>
+            <p class="card-text">A high-quality nitrogen-rich fertilizer for improved crop yields.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="carousel-item">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="assets/fertilizer1.jpg" class="card-img-top" alt="Fertilizer 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Phosphorus Blend</h5>
+            <p class="card-text">Boosts root growth and flower production in your crops.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+       <!-- Footer -->
+       <footer class="footer bg-dark text-white text-left py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1: About Us -->
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>We are a startup focused on innovation and growth in the tech industry. Our mission is to provide cutting-edge solutions for tomorrow's challenges.</p>
+                </div>
+                <!-- Column 2: Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Column 3: Follow Us and Location -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="https://www.instagram.com/croptech.fert?igsh=MWtjZzd5eDI4bnp4cw%3D%3D&utm_source=qr" class="text-white mr-3"><i class="fab fa-instagram"></i> Instagram</a><br>
+                    <a href="https://maps.app.goo.gl/nGX3snKC6KbvXMsw5?g_st=com.google.maps.preview.copy" class="text-white mr-3"><i class="fas fa-map-marker-alt"></i> Our Location</a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <p>&copy; 2024 Startupedia. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap & Font Awesome JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
